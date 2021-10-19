@@ -1,4 +1,5 @@
 ﻿using System;
+using newNamespace;
 
 namespace _18102021ca
 {
@@ -16,7 +17,12 @@ namespace _18102021ca
             //Console.WriteLine(StaticClass.Sum(5, 15));
             #endregion
             #region Extension
-            Extension.Power(5, 2);
+           // Extension.Power(5, 2);
+            #endregion
+            #region NameSpace
+            SomeClass value = new SomeClass(65);
+            Console.WriteLine(value.Return());
+
             #endregion
 
 
